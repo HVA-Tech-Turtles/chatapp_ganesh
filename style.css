@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .chat-list {
+    text-align: center;
+    padding: 20px;
+    background-color: whitesmoke;
+    height: 100vh;
+    width: 30%;
+  }
+  
+  .chat-window {
+    width: 70%;
+    background-color: whitesmoke;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  h1 {
+    margin-bottom: 30px;
+    font-size: 36px;
+  }
+  
+  h2 {
+    margin-top: 0;
+    font-size: 18px;
+  }
+  
+  .chat-header {
+    background:blue;
+    color:white;
+    text-align: right;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    height: 20px;
+  }
+  
+  .user-list {
+    background: white;
+    padding: 20px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    color: black;
+  }
+  
+  .chat-messages {
+    background: #fff;
+    padding: 10px;
+    overflow-y: auto;
+    list-style: none;
+    height: 60vh;
+    border: 1px solid #191616;
+    margin-top: 10px;
+  }
+  
+  .chat-input {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    border: 1px solid #191616;
+  }
+  
+  #messageInput {
+    flex-grow: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+  }
+  
+  #send-button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  #send-button:hover {
+    background-color: darkblue; 
+  }
+  
+  
+  #nameInput,
+  #roomInput {
+    width: calc(100% - 20px); 
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #040404;
+  }
+  
+  #joinRoom {
+    width: 100%;
+    padding: 10px;
+    background-color:blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #joinRoom:hover{
+    background-color: darkblue;
+  }
